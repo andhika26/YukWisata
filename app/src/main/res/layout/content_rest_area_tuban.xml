@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.RestAreaTuban"
+    tools:showIn="@layout/activity_rest_area_tuban">
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="REST ARES TUBAN WISATA  adalah Salah satu tempat istirahat di daerah Pantura masuk kota Tuban. Rest Area Juga merupakan tempat strategis lintasan antar kota yang berada di Pantura Tuban yang masih muda, namun sangat Eksotik dengan pantai  nya. bila anda bepergian dari arah Kota Rembang menuju Surabaya maka setelah masuk kota Tuban anda akan melintasi Salah tempat Peristrirahatan yang Ramai dikujungi orang dan tempat parkir yang luas.. itulah Rest Area Tuban..  Rest Area adalah Tempat Expo hasil karya tangan- tangan  terampil warga Tuban yang di bina oleh Perindustrian Tuban. sehingga bagi para pengunjung yang menginnginkan berbagai aneka oleh-oleh mulai dari makanan  dan minuman sampai Batik khas Tuban, Souvenir dll.  Rest Arrea Tuban dilengkapi dengan berbagai macam Kuliner Khas Tuban yang bakal menggoyang lidah anda. Masakan Khas Tuban, Masakan jawa timur, Masakan China. tak lupa dengan pelengkap minuman berbagai macam kopi sampai dengan berbagai macam Jus Buah.  Rest Area bisa digunakan untuk pertemuan non fomal Meting.bisnis, karena dilengkapi fasilitas Free Wifi. yang bisa di jangkau sampai 50 M. dengan parkir yang Gratis dan Aman semua kalangan bisnis bisa transaksi dengan santai."
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Lihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Peta" />
+    </LinearLayout>
+
+</androidx.core.widget.NestedScrollView>

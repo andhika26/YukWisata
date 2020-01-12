@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.SunanBonang"
+    tools:showIn="@layout/activity_sunan_bonang">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Sunan Bonang yang mempunyai nama asli Syeh Makhdum Makhdum Ibrahim ini merupakan seorang wali 9 yang termashur diperiode wali ke 3 . Dari kecil sunan bonang telah mendapatkan pelajaran dan didikan yang luar biasa dari seorang ayahnya yang merupakan seorang tokoh ulama yang sakral. Untuk menjadi seorang ulama maupun wali tentunya tidaklah mudah, sunan bonang mendapatkan tempa-an yang istimewa dari ayahnya yaitu sunan ampel. Sesampai waktu remaja sunan bonang dan raden paku diceritakan mendalami ilmu agama sampai kenegeri seberang yakni negeri pasai dan sekitarnya. Bersama-sama keduanya menimba ilmu ke syeh maulanan ishaq yang merupakan ayah kandung dari sunan giri. Selain itu mereka berdua juga menuntut ilmu ke ulama besar yang kebetulan berdakwah dan menetap di negeri pasai. Ulama-ulama tersebut berasal dari negara baghdad, mesir, iran, arab yang merupakan ulama ahli tasawuf.Makam Sunan Bonang Terletak ditengah-tengah kota tuban lokasinya di sebelah barat alun-alun kota tuban tepatnya dibelakang masjid agung Tuban .  "
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Peta dan Koordinat GPS: 6°58'6&quot;S   111°47'38&quot;E"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/lihatpeta"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lihat Peta" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

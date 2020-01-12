@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.RMWahyuUtama"
+    tools:showIn="@layout/activity_rmwahyu_utama">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <TextView
+            android:id="@+id/textView15"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Rumah Makan kami biasa disanggahi Bus dan Rombongan Wisata. Kami juga menyediakan Catering untuk Kepentingan Pernikahan atau acara yang lainnya \n\n webSite : www.wahyuutama.com \n\n Rumah Makan Wahyu Utama : (0356) 411145/ 081234297729 \n\n Jl. Raya Bancar, Sukolilo, Bancar, Kabupaten Tuban, Jawa Timur 62354  "
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Lihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Peta" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

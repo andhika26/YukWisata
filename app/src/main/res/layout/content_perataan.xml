@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.Perataan"
+    tools:showIn="@layout/activity_perataan">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Tempat wisata ini menarik buat anda kunjungi, selain anda berlibur juga dapat berobat. “Pepatah bilang sekali dayung dua tiga pulau terlampaui”, mungkin itu perumpaan saat anda berkunjung ketempat ini. Pasalnya di tempat ini selain anda bisa menikmati wisata alam anda juga dapat berobat dengan mandi atau berendam di kolam Air Panas Prataan. Warga sekitar percaya sumber Air Panas Prataan dapat menyembuhkan berbagai penyakit diantaranya penyakit kulit, strok, gatal-gatal, encok, rematik, dan berbagai penyakit lainya. Hal itu dibenarkan oleh pengelola dan dibuktikan dengan berdatangnya pengunjung dari wilayah sekitar dan juga wisatawan dari kota luar seperti lamongan, bojonegoro, Surabaya, dan kota lainya. "
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Peta dan Koordinat GPS: 6°58'6&quot;S   111°47'38&quot;E"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Lihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lihat Peta" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

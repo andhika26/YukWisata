@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="id.developer.plk.yukwisata">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google Maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality.
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ikonwisata"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ikonwisata"
+        android:theme="@style/AppTheme"
+        tools:ignore="AllowBackup,GoogleAppIndexingWarning">
+
+        <!--
+             The API key for Google Maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/.
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <activity
+            android:name=".HalamanAwal"
+            android:label="Yuk Wisata"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_peta_web_view"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaWebView"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HomeActivity"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListHotel"
+            android:label="@string/title_activity_list_hotel"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListWisata"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Nglirip"
+            android:label="@string/title_activity_nglirip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".SunanBonang"
+            android:label="@string/title_activity_sunan_bonang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakamBejagungKidul"
+            android:label="@string/title_activity_makam_bejagung_kidul"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MakamAsmoroqondi"
+            android:label="@string/title_activity_makam_asmoroqondi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".MuseumKambangPutih"
+            android:label="@string/title_activity_museum_kambang_putih"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Perataan"
+            android:label="@string/title_activity_perataan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelMustika"
+            android:label="@string/title_activity_hotel_mustika"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelRatna"
+            android:label="@string/title_activity_hotel_ratna"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelIrwan"
+            android:label="@string/title_activity_hotel_irwan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RestAreaTuban"
+            android:label="@string/title_activity_rest_area_tuban"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".ListRumahMaka"
+            android:label="@string/title_activity_list_rumah_maka"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RMWahyuUtama"
+            android:label="@string/title_activity_rmwahyu_utama"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RMApungRahmawati"
+            android:label="@string/title_activity_rmapung_rahmawati"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".RMBajakLaut"
+            android:label="@string/title_activity_rmbajak_laut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaSunanBonang"
+            android:label="@string/title_activity_peta_sunan_bonang"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaWisataNglirip"
+            android:label="@string/title_activity_peta_wisata_nglirip"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaWisataPerataan"
+            android:label="@string/title_activity_peta_wisata_perataan"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaWisataMakamBejagung"
+            android:label="@string/title_activity_peta_wisata_makam_bejagung"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaWisataMusimKambangPutih"
+            android:label="@string/title_activity_peta_wisata_musim_kambang_putih"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaWisataAsmoroqondi"
+            android:label="@string/title_activity_peta_wisata_asmoroqondi"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaRestArea"
+            android:label="@string/title_activity_peta_rest_area"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaRMApungRahmawati"
+            android:label="@string/title_activity_peta_rmapung_rahmawati"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaBajakLaut"
+            android:label="@string/title_activity_peta_bajak_laut"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaRMWahyuUtama"
+            android:label="@string/title_activity_peta_rmwahyu_utama"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PetaHotelMustika"
+            android:label="@string/title_activity_peta_hotel_mustika"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelBaliRich"
+            android:label="@string/title_activity_hotel_bali_rich"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".HotelBaliRich2"
+            android:label="@string/title_activity_hotel_bali_rich2"
+            android:theme="@style/AppTheme.NoActionBar"/>
+        <activity
+            android:name=".WisataBaruTuban"
+            android:label="Wisata Tuban Bumi Wali">
+        </activity>
+    </application>
+
+</manifest>

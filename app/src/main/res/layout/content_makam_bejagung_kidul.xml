@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.MakamBejagungKidul"
+    tools:showIn="@layout/activity_makam_bejagung_kidul">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Makam Bejagung Kidul terletak di Dusun Bejagung Kidul, Desa Bejagung, Kecamatan Semaning, Kabupaten Tuban. Secara Geografis, Sebelah Utara berbatasan dengan makam umum, Sebelah Timur berbatasan dengan Jalan dan Perkampungan, sebelah Selatan berbatasan dengan perkampungan dan Sebelah Barat berbatasan dengan makam umum. Tokoh yang dimakamkan pada Makam Bejagung Kidul adalah Pangeran Kusumawardana atau yang dikenal dengan nama Pangeran Kusumoadhi dan Pangeran Peghulu. Beliau adalah putra raja Majapahit dari istri selir yang meninggalkan lingkungan istana karena tertarik dengan agama Islam yang dibawa Syech Jumadil Kubro ke kalangan istana Majapahit, beliu disarankan untuk belajar agama Islam kepada Syech Abdullah Asyhari atau Mbah Modin Asyhari yang terkenal dengan nama Sunan Bejagung Kidul. Setelah memeluk agama Islam beliau berganti nama menjadi Imamuddin"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Peta dan Koordinat GPS: 6°58'6&quot;S   111°47'38&quot;E"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Lihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lihat Peta" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

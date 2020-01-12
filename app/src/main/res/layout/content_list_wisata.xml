@@ -1,0 +1,480 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.ListWisata"
+    tools:showIn="@layout/activity_list_wisata">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/perataan"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            tools:ignore="DuplicateIds">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail10"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/perataan"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail10"
+                    android:layout_toRightOf="@+id/thumbnail10"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/perataan"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_below="@+id/title7"
+                    android:layout_marginTop="7dp"
+                    android:layout_toEndOf="@+id/thumbnail10"
+                    android:layout_toRightOf="@+id/thumbnail10"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Alam"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/museumkambangputih"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/kambangputih"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail"
+                    android:layout_toRightOf="@+id/thumbnail"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/musium_kambang_putih"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title2"
+                    android:layout_toEndOf="@+id/thumbnail"
+                    android:layout_toRightOf="@+id/thumbnail"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Edukasi"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/nglirip"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail8"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/nglirip"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title4"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentEnd="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_toEndOf="@+id/thumbnail8"
+                    android:layout_toRightOf="@+id/thumbnail8"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/air_terjun_nglirip"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="DuplicateIds" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title4"
+                    android:layout_toEndOf="@+id/thumbnail8"
+                    android:layout_toRightOf="@+id/thumbnail8"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Alam"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/asmoroqondi"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail7"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/asmoroqondi"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail7"
+                    android:layout_toRightOf="@+id/thumbnail7"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/makam_asmoroqondi"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title10"
+                    android:layout_toEndOf="@+id/thumbnail7"
+                    android:layout_toRightOf="@+id/thumbnail7"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Religi"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sendangasmoro"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp"
+            tools:ignore="DuplicateIds">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail6"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/sendangasmoro"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail6"
+                    android:layout_toRightOf="@+id/thumbnail6"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Sendang Asmoro"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title6"
+                    android:layout_toEndOf="@+id/thumbnail6"
+                    android:layout_toRightOf="@+id/thumbnail6"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Alam"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/goakbar"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp"
+            tools:ignore="DuplicateIds">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail11"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/boom"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail11"
+                    android:layout_toRightOf="@+id/thumbnail11"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Pantai Boom"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title11"
+                    android:layout_toEndOf="@+id/thumbnail11"
+                    android:layout_toRightOf="@+id/thumbnail11"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Alam"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/pasirputih"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp"
+            tools:ignore="DuplicateIds">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail11"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/boom"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Pantai Boom"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title11"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Alam"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/sowan"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp"
+            tools:ignore="DuplicateIds">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail11"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/boom"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title11"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Pantai Sowan"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title11"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Alam"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/bejagungkidul"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="4dp"
+            tools:ignore="DuplicateIds">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail6"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/bejagung"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail6"
+                    android:layout_toRightOf="@+id/thumbnail6"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/makam_bejagung_kidul"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title6"
+                    android:layout_toEndOf="@+id/thumbnail6"
+                    android:layout_toRightOf="@+id/thumbnail6"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wisata Religi"
+                    android:textColor="#666"
+                    android:textSize="14sp" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

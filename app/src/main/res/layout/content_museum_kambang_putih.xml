@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.MuseumKambangPutih"
+    tools:showIn="@layout/activity_museum_kambang_putih">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Museum Kambang Putih merupakan satu-satunya museum yang ada di Kabupaten Tuban. Lokasi Museum berdekatan dengan makam Sunan Bonang, Alun-alun dan juga Pantai Boom Tuban tepatnya di Jalan Kartini No.3 Tuban. Untuk bisa masuk ke dalam Museum Kambang Putih, pengunjung hanya cukup mengisi buku tamu yang berada di dekat pintu masuk tanpa dikenai biaya.Cukup banyak koleksi benda-benda bersejarah di museum Kambang Putih. Diruang pertama museum ini pengunjung akan mendapati Museum Koes Plus Bersaudara yang merupakan band legendaris Indonesia yang berasal dari Tuban. Di ruangan ini disuguhkan koleksi kaset-kaset dan juga foto-foto Koes Plus.Diruang berikutnya, dipajang uang-uang kuno baik yang berbahan kertas maupun koin dari abad XIX-XX. Dirungan ini juga terdapat peralatan nelayan tradisional seperti dayung, jala atau jaring, tempat menyimpan ikan dan juga sepasang sandal yang terbuat dari kayu. Diruang selanjutnya pengunjung bisa mendapatkan informasi dan juga contoh kain batik tulis Gedog khas Tuban.Di museum Kambang Putih juga menyimpan barang yang merupakan bagian dari kebudayaan masyarakat Tuban yang sudah langkah ditemui di Tuban, yaitu Ongkek."
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/textView6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Peta dan Koordinat GPS: 6°58'6&quot;S   111°47'38&quot;E"
+            android:textAlignment="center"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/Lihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Lihat Peta" />
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

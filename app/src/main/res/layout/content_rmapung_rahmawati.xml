@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.RMApungRahmawati"
+    tools:showIn="@layout/activity_rmapung_rahmawati">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView13"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="@dimen/text_margin"
+            android:text="Warung Apung Rahmawati hadir sebagai bentuk dedikasi serta apresiasi kami kepada para maestro kuliner Indonesia yang telah berjasa memperkenalkan cita rasa nusantara. Kami adalah wujud dari pertemuan dua zaman—kontemporer dan tradisional yang terhidang  dalam ragam sajian bercita rasa pilihan dengan tampilan berkelas."
+            android:textAlignment="center"
+            android:textSize="24sp" />
+
+        <Button
+            android:id="@+id/Lihat"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Lihat Peta" />
+
+    </LinearLayout>
+
+
+</androidx.core.widget.NestedScrollView>

@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="id.developer.plk.yukwisata.ListHotel"
+    tools:showIn="@layout/activity_list_hotel">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/irwan"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp"
+            tools:ignore="DuplicateIds">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail6"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/download"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title6"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/hotel_irwan"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="MissingPrefix,RtlCompat"
+                    android:layout_toRightOf="@+id/thumbnail6"
+                    android:layout_toEndOf="@+id/thumbnail6" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/ratna"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <ImageView
+                    android:id="@+id/thumbnail"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/hotelmustika"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/hotel_ratna"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/balirich"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView11"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@mipmap/hotelirwan"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title7"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/imageView11"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/hotel_bali_rich"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat"
+                    android:layout_toRightOf="@+id/imageView11" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/amerta"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView12"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@mipmap/amerta"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title8"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/imageView12"
+                    android:layout_toRightOf="@+id/imageView12"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/hotel_amertaa"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/tubantropis"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView13"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@mipmap/tbantropis"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title9"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/imageView13"
+                    android:layout_toRightOf="@+id/imageView13"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/hotel_tuban_tropis"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/wilis"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView14"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@mipmap/tbantropis"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title10"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Wilis Hill Resort"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/purnama"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView16"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@mipmap/kevin"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title12"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Hotel Purnama"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/kevin"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/imageView18"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    app:srcCompat="@mipmap/kevin"
+                    tools:ignore="ContentDescription" />
+
+                <TextView
+                    android:id="@+id/title14"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="Hotel Kevin"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+        <androidx.cardview.widget.CardView
+            android:id="@+id/mustika"
+            android:layout_width="match_parent"
+            android:layout_height="120sp"
+            android:layout_margin="4dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <ImageView
+                    android:id="@+id/thumbnail1"
+                    android:layout_width="110dp"
+                    android:layout_height="110dp"
+                    android:layout_alignParentTop="true"
+                    android:layout_margin="4dp"
+                    android:background="@mipmap/hotelmustika"
+                    android:contentDescription="@string/app_name"
+                    android:scaleType="centerCrop" />
+
+                <TextView
+                    android:id="@+id/title1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_toEndOf="@+id/thumbnail1"
+                    android:gravity="center_vertical|center_horizontal|center"
+                    android:maxLines="3"
+                    android:padding="8dp"
+                    android:text="@string/hotel_mustika"
+                    android:textColor="#222"
+                    android:textSize="22sp"
+                    android:textStyle="bold"
+                    tools:ignore="RtlCompat" />
+
+            </RelativeLayout>
+        </androidx.cardview.widget.CardView>
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
